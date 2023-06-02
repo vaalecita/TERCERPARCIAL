@@ -8,11 +8,7 @@ body{
         width: 50%;
         width: 500px;
 }
-titulo{
-font-family: 'Mondera', sans-serif;                                                                                  
-  font-size: 60px;
-  aling-content: center;   
-  }
+
   table{
         margin-left: 200px;
         background-color: grey;
@@ -27,7 +23,7 @@ verde{
     color:green;
   }
 morado{
-    color:purple;
+    color:purple;}
     table{
       border-collapse: collapse;
       width: 100%;
@@ -48,8 +44,21 @@ morado{
       width: 100px;
       height: 100px;
     }
+    video{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
-
-}
-}
+    .titulo{ 
+      font-family: 'Fear', sans-serif;
+      font-size: 150px;
+      background-color: black;
+      background: black;
+      text-align: center;
+      font-weight: 200;
+      mix-blend-mode: multiply;
+                                                
 }
